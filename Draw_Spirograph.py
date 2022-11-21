@@ -6,6 +6,10 @@ tim = t.Turtle()
 t.colormode(255)
 
 def random_color():
+    '''
+    Seleccionar colores rgb al azar
+    :return: color rgb
+    '''
     r = random.randint(0, 255)
     g = random.randint(0, 255)
     b = random.randint(0, 255)
